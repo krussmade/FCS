@@ -1,0 +1,541 @@
+WARNING:root:Bot running..
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:Bot running..
+2022-08-16 04:11:11,571 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-16 04:11:11,573 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+2022-08-16 04:11:11,874 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-16 04:11:11,874 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:Bot running..
+WARNING:root:Bot running..
+2022-08-22 04:11:09,028 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-22 04:11:09,032 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+2022-08-22 04:11:09,333 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-22 04:11:09,334 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+2022-08-24 11:06:24,205 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-24 11:06:24,206 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+2022-08-24 11:06:24,516 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-24 11:06:24,517 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:Bot running..
+WARNING:root:('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+2022-08-26 01:53:40,166 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-26 01:53:40,169 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+2022-08-26 01:53:40,463 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-08-26 01:53:40,464 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=20)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5487272216:AAHB8XAaO6RhI-8YpJoTL3er3wzOV8wr3po/getUpdates?offset=1&timeout=20 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f412409e910>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5487272216:AAHB8XAaO6RhI-8YpJoTL3er3wzOV8wr3po/getUpdates?offset=1&timeout=20 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f412409e520>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5487272216:AAHB8XAaO6RhI-8YpJoTL3er3wzOV8wr3po/getUpdates?offset=1&timeout=20 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f41240aaf10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
+WARNING:root:Bot running..
+2022-09-05 04:10:19,492 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-09-05 04:10:19,493 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+2022-09-05 04:10:19,791 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-09-05 04:10:19,791 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+2022-09-05 04:10:20,340 (__init__.py:986 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+2022-09-05 04:10:20,340 (__init__.py:988 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+"
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway
+
+WARNING:root:HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+WARNING:root:Restarting..
+WARNING:root:Running again!
+WARNING:root:Bot running..
